@@ -67,7 +67,7 @@ gpg --full-generate-key
 - For email address, use one that has been verified with the GitHub account.
 - Passphrase won't be a hassle. Many Linux desktops offer to store it in a password manager.
 
-## Export/import public and private keys
+### Export/import public and private keys
 
 The above base64-encoded export format is readable text and suitable for copy-pasting into GitHub web UI.
 To transfer keys across machines, we should export and import them in raw binary format.
