@@ -11,6 +11,9 @@ menus:
   - name: "Notes"
     pageRef: "/notes/"
     weight: 20
+  - name: "Blogs"
+    pageRef: "/blogs/"
+    weight: 30
 
 taxonomies:
   tag: tags
