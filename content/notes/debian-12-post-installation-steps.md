@@ -1,13 +1,13 @@
 ---
 author: Ke Xue
 title: Debian 12 Post Installation Steps
-date: 2024-11-05T17:16:29-05:00
-draft: true
+date: 2024-11-05T21:21:56-05:00
+draft: false
 layout: docs
 description: Steps to perform after a fresh Debian 12 installation.
 tags:
-- linux
-- debian
+- Linux
+- Debian
 ---
 
 This page covers the necessary steps after installing Debian 12.
@@ -74,8 +74,8 @@ sudo apt install nvidia-driver firmware-misc-nonfree
 
 This will build the `nvidia` kernel module for the OS, via the `nvidia-kernel-dkms` package.
 
-Compared to `Fedora Akmods <Fedora_Akmods>`, Debian uses DKMS instead of its own tooling for building
-kernel modules.
+Compared to [Fedora Akmods]({{% ref "/notes/fedora-39-post-installation-steps#fedora-akmods" %}}),
+Debian uses DKMS instead of its own tooling for building kernel modules.
 
 On Debian 12 with GNOME desktop and NVIDIA proprietary driver, it is
 possible that X11 is still used as the Windowing System and we don't
@@ -156,7 +156,7 @@ Then install the Flathub version of Firefox in GNOME Software.
 
 Install the Flathub version of Thunderbird in GNOME Software.
 
-Perform `configure_thunderbird` to make Thunderbird run in Wayland native.
+Perform [configure thunderbird]({{% ref "/notes/wayland-native#flathub-thunderbird" %}}) to make Thunderbird run in Wayland native.
 
 ## Enable backports Repository
 
