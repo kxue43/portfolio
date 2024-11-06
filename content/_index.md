@@ -1,6 +1,6 @@
 ---
 author: Ke Xue
-title: Misc
+title: Misc.
 description: Ke's IT-related notes and blogs.
 thumbnail:
     url: /img/sunrise.jpg
