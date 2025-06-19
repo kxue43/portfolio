@@ -8,13 +8,12 @@ module:
 
 menus:
   main:
-  - name: "Notes"
-    pageRef: "/notes/"
-    weight: 20
   - name: "Blogs"
     pageRef: "/blogs/"
+    weight: 20
+  - name: "Notes"
+    pageRef: "/notes/"
     weight: 30
-
 taxonomies:
   tag: tags
 
